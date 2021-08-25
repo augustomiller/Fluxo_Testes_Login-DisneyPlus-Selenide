@@ -1,4 +1,4 @@
-package con.disneyPlusTests;
+package com.disneyPlusTests;
 
 import org.testng.annotations.Test;
 
