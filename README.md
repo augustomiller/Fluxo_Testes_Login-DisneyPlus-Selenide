@@ -10,52 +10,87 @@
 
 #
 
-## Cenários:
+## Cenários 📸
+
+<div text align="center">
   
-| CN-1 - Login fluxo de sucesso - Chrome  |   |   |
+### Cenário 1 ⇢ Login fluxo de sucesso ⎬ Chrome
+  
+<a href="https://user-images.githubusercontent.com/990877/130768388-4f9911c5-be81-4766-9e57-7c0db801a65d.png"/><img alt="evidencia1" src="https://img.shields.io/badge/evidence-IO-green"/></a>
+</div>
+  
+| CN-1 Login fluxo de sucesso - Chrome  |   |   |
 |:-:|---|---|
-|  CN-1.A | Abrir o navegador Google Chrome  | Navegador abre com sucesso ✓  |
-|  CN-1.B | Abrir uri  | https://www.disneyplus.com/pt-br ✓  |
-|  CN-1.C | Validar se  utilizador está autenticado | Valida autenticação ✓
- 
-
+|  CN-1.A | Abrir o navegador Google Chrome  | Navegador abre com sucesso  |
+|  CN-1.B | Abrir uri  | https://www.disneyplus.com/  |
+|  CN-1.C | Validar se  utilizador está autenticado | Valida autenticação
 
 #
- 
-| CN-2 - Login senha inválida - Chrome  |   |   |
+#
+
+<div text align="center">
+  
+### Cenário 2 ⇢ Login fluxo de sucesso ⎬ Chrome
+  
+<a href=""/><img alt="evidencia2" src="https://img.shields.io/badge/evidence-IO-green"/></a>
+</div>
+
+| CN-2 Login senha inválida - Chrome  |   |   |
 |:-:|---|---|
-|  CN-2.A | Abrir o navegador Google Chrome  | Navegador abre com sucesso ✓  |
-|  CN-2.B | Abrir uri  | https://www.disneyplus.com/pt-br/login ✓  |
-|  CN-2.C | Validar se  utilizador não está autenticado | Senha inválida ✓
+|  CN-2.A | Abrir o navegador Google Chrome  | Navegador abre com sucesso  |
+|  CN-2.B | Abrir uri  | https://www.disneyplus.com/login  |
+|  CN-2.C | Validar se  utilizador não está autenticado | Senha inválida
 
   
 #
+#
 
-| CN-3 - Login usuário não cadastrado - Chrome  |   |   |
+<div text align="center">
+  
+### Cenário 3 ⇢ Login fluxo de sucesso ⎬ Chrome
+  
+<a href=""/><img alt="evidencia3" src="https://img.shields.io/badge/evidence-IO-green"/></a>
+</div>
+
+| CN-3 Login usuário não cadastrado - Chrome  |   |   |
 |:-:|---|---|
-|  CN-3.A | Abrir o navegador Google Chrome  | Navegador abre com sucesso ✓  |
-|  CN-3.B | Abrir uri  | https://www.disneyplus.com/pt-br/login ✓  |
-|  CN-3.C | Validar se  utilizador não está cadastrado | Usuário inválido ✓
+|  CN-3.A | Abrir o navegador Google Chrome  | Navegador abre com sucesso  |
+|  CN-3.B | Abrir uri  | https://www.disneyplus.com/login  |
+|  CN-3.C | Validar se  utilizador não está cadastrado | Usuário inválido
 
 
 #
+#
 
-| CN-4 - Login usuário é obrigatório - Chrome  |   |   |
+<div text align="center">
+  
+### Cenário 4 ⇢ Login fluxo de sucesso ⎬ Chrome
+  
+<a href=""/><img alt="evidencia4" src="https://img.shields.io/badge/evidence-IO-green"/></a>
+</div>
+
+
+| CN-4 Login usuário é obrigatório - Chrome  |   |   |
 |:-:|---|---|
-|  CN-4.A | Abrir o navegador Google Chrome  | Navegador abre com sucesso ✓  |
-|  CN-4.B | Abrir uri  | https://www.disneyplus.com/pt-br/login ✓  |
-|  CN-4.C | Validar se campo utilizador está pupulado | Campo usuário é obrigatório ✓
+|  CN-4.A | Abrir o navegador Google Chrome  | Navegador abre com sucesso  |
+|  CN-4.B | Abrir uri  | https://www.disneyplus.com/login  |
+|  CN-4.C | Validar se campo utilizador está pupulado | Campo usuário é obrigatório
    
 
 #
+#
 
-| CN-5 - Login senha é obrigatório - Chrome  |   |   |
+<div text align="center">
+  
+### Cenário 5 ⇢ Login fluxo de sucesso ⎬ Chrome
+  
+<a href=""/><img alt="evidencia5" src="https://img.shields.io/badge/evidence-IO-green"/></a>
+</div>
+
+| CN-5 Login senha é obrigatório - Chrome  |   |   |
 |:-:|---|---|
-|  CN-5.A | Abrir o navegador Google Chrome  | Navegador abre com sucesso ✓  |
-|  CN-5.B | Abrir uri  | https://www.disneyplus.com/pt-br/login ✓  |
-|  CN-5.C | Validar se campo senha está pupulado | Campo senha é obrigatório ✓
+|  CN-5.A | Abrir o navegador Google Chrome  | Navegador abre com sucesso  |
+|  CN-5.B | Abrir uri  | https://www.disneyplus.com/login  |
+|  CN-5.C | Validar se campo senha está pupulado | Campo senha é obrigatório
 
-   
-##
-
-![Screen Shot 2021-08-25 at 05 09 13](https://user-images.githubusercontent.com/990877/130752845-cd4b2ee6-7ae7-45b7-8e48-ac240ddd8f6e.png)
+#
