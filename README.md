@@ -49,7 +49,7 @@
   
 ### Cenário 3 ⇢ Login usuário não cadastrado ⎬ Chrome
   
-<a href=""/><img alt="evidencia3" src="https://img.shields.io/badge/evidence-IO-green"/></a>
+<a href="https://user-images.githubusercontent.com/990877/130779674-2d57e6af-9f3b-4db3-93a1-8d5f8b3ffbac.png"/><img alt="evidencia3" src="https://img.shields.io/badge/evidence-IO-green"/></a>
 </div>
 
 | CN-3 Login usuário não cadastrado - Chrome  |   |   |
