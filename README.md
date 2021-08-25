@@ -5,6 +5,6 @@
 
 ## Cenário:
 
-CN-1 - Em brevea atualizações...
+CN-1 - Em breve atualizações...
 
 ![Screen Shot 2021-08-25 at 05 09 13](https://user-images.githubusercontent.com/990877/130752845-cd4b2ee6-7ae7-45b7-8e48-ac240ddd8f6e.png)
