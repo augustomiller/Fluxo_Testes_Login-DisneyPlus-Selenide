@@ -30,7 +30,7 @@
 
 <div text align="center">
   
-### Cenário 2 ⇢ Login fluxo de sucesso ⎬ Chrome
+### Cenário 2 ⇢ Login senha inválida ⎬ Chrome
   
 <a href=""/><img alt="evidencia2" src="https://img.shields.io/badge/evidence-IO-green"/></a>
 </div>
@@ -47,7 +47,7 @@
 
 <div text align="center">
   
-### Cenário 3 ⇢ Login fluxo de sucesso ⎬ Chrome
+### Cenário 3 ⇢ Login usuário não cadastrado ⎬ Chrome
   
 <a href=""/><img alt="evidencia3" src="https://img.shields.io/badge/evidence-IO-green"/></a>
 </div>
@@ -64,7 +64,7 @@
 
 <div text align="center">
   
-### Cenário 4 ⇢ Login fluxo de sucesso ⎬ Chrome
+### Cenário 4 ⇢ Login usuário é obrigatório ⎬ Chrome
   
 <a href=""/><img alt="evidencia4" src="https://img.shields.io/badge/evidence-IO-green"/></a>
 </div>
@@ -82,7 +82,7 @@
 
 <div text align="center">
   
-### Cenário 5 ⇢ Login fluxo de sucesso ⎬ Chrome
+### Cenário 5 ⇢ Login senha é obrigatório ⎬ Chrome
   
 <a href=""/><img alt="evidencia5" src="https://img.shields.io/badge/evidence-IO-green"/></a>
 </div>
