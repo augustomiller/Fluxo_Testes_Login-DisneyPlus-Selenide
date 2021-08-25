@@ -16,7 +16,7 @@
   
 ### Cenário 1 ⇢ Login fluxo de sucesso ⎬ Chrome
   
-<a href="https://user-images.githubusercontent.com/990877/130768388-4f9911c5-be81-4766-9e57-7c0db801a65d.png"/><img alt="evidencia1" src="https://img.shields.io/badge/evidence-IO-green"/></a>
+<a href="https://user-images.githubusercontent.com/990877/130780402-7920fb87-afd2-4207-80e9-962905610e2d.png"/><img alt="evidencia1" src="https://img.shields.io/badge/evidence-IO-green"/></a>
 </div>
   
 | CN-1 Login fluxo de sucesso - Chrome  |   |   |
