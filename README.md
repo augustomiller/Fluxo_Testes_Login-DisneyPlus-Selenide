@@ -23,7 +23,7 @@
 |:-:|---|---|
 |  CN-1.A | Abrir o navegador Google Chrome  | Navegador abre com sucesso  |
 |  CN-1.B | Abrir uri  | https://www.disneyplus.com/  |
-|  CN-1.C | Validar se  utilizador está autenticado | Valida autenticação
+|  CN-1.C | Validar se  utilizador está autenticado | Validar área logada
 
 #
 #
