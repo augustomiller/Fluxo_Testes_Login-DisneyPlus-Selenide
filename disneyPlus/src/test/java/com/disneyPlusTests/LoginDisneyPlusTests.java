@@ -40,4 +40,18 @@ public class LoginDisneyPlusTests {
                      "problema continuar, selecione \"Esqueceu a senha?\" e faça a redefinição (código de erro 14)."));
 
     }
+
+    @Test
+    public void userNotFound(){
+
+        isChrome();
+        open("https://www.disneyplus.com/pt-br");
+        $(".nav-initial .wrapper a").shouldHave(text("Entrar")).click();
+
+        $("#email").setValue("notfound@gmail.com");
+        $("button[data-gv2elementkey]").click();
+
+        $("button[data-testid=modal-secondary-button]").shouldHave(text("Assinar"));
+
+    }
 }
