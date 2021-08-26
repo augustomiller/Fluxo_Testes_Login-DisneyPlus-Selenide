@@ -54,4 +54,20 @@ public class LoginDisneyPlusTests {
         $("button[data-testid=modal-secondary-button]").shouldHave(text("Assinar"));
 
     }
+
+    @Test
+    public void emailRequired(){
+
+        isChrome();
+        open("https://www.disneyplus.com/pt-br");
+        $(".nav-initial .wrapper a").shouldHave(text("Entrar")).click();
+
+        $("#email").setValue("");
+        $("button[data-gv2elementkey]").click();
+
+        $("div[data-testid=text-input-error]").shouldHave(text("Houve um problema na criação da conta. " +
+                " Volte a digitar seu e-mail e senha e tente novamente. Se o problema continuar, entre em contato " +
+                " com o Suporte do Disney+ (código de erro 6)."));
+
+    }
 }
