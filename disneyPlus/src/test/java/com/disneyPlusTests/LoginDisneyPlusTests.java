@@ -17,8 +17,6 @@ public class LoginDisneyPlusTests {
         return new Object[][]{
                 {"johnwick@gmail.com", "johnwick@pencil", "Senha incorreta. Digite novamente. Se o problema continuar, selecione \"Esqueceu a senha?\" e faça a redefinição (código de erro 14)."},
                 {"johnwick@gmail.com", "", "Houve um problema na criação da conta. Volte a digitar seu e-mail e senha e tente novamente. Se o problema continuar, entre em contato com o Suporte do Disney+ (código de erro 6)."},
-//                {"", "johnwick@pencil", "Houve um problema na criação da conta. Volte a digitar seu e-mail e senha e tente novamente. Se o problema continuar, entre em contato com o Suporte do Disney+ (código de erro 6)."},
-//                {"notfound@gmail.com", "johnwick@pencil", "Assinar"}
         };
     }
 
