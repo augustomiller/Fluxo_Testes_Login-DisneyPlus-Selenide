@@ -47,8 +47,6 @@ public class LoginPage {
     }
 
     public void passwordNotFound(String email, String pass) {
-
-        executeJavaScript("localStorage.clear();");
         $(".nav-initial .wrapper a").shouldHave(text("Entrar")).click();
         $("#email").setValue(email);
         $("button[data-gv2elementkey]").click();
@@ -61,7 +59,7 @@ public class LoginPage {
     }
     
     public void clearSession(){
-        executeJavaScript("localStorage.Clear()");
+        executeJavaScript("localStorage.clear()");
     }
 
 }

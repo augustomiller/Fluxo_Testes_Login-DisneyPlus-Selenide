@@ -1,18 +1,14 @@
 package com.disneyPlusTests.tests;
 
-import com.codeborne.selenide.Configuration;
-import com.disneyPlusTests.pages.LoginPage;
+import com.disneyPlusTests.common.BaseTest;
 import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Selenide.$;
 
-public class LoginDisneyPlusTests {
-
-    protected static LoginPage login;
+public class LoginDisneyPlusTests extends BaseTest {
 
     /*
      * Massa de teste que valida cenários sem sucesso.
@@ -20,30 +16,16 @@ public class LoginDisneyPlusTests {
     @DataProvider(name = "data-provider")
     public Object[][] loginProvider() {
         return new Object[][]{
-                {"johnwick@gmail.com", "", "Sorry, we are having trouble creating your account. Please re-enter your email and password and try again. If the problem persists, contact Disney+ Support (Error Code 6)."},
-                {"johnwick@gmail.com", "johnwick@pencil", "Sorry, we are having trouble creating your account. Please re-enter your email and password and try again. If the problem persists, contact Disney+ Support (Error Code 6)."},
+                {"maic@gmail.com", "", "Houve um problema na criação da conta. Volte a digitar seu e-mail e senha e tente novamente. Se o problema continuar, entre em contato com o Suporte do Disney+ (código de erro 6)."},
+                {"maic@gmail.com", "johnwick@pencil", "Senha incorreta. Digite novamente. Se o problema continuar, selecione \"Esqueceu a senha?\" e faça a redefinição (código de erro 14)."},
         };
-    }
-
-    /*
-     * Todas as instruções aqui, será executada antes de cada teste.
-     * */
-    @BeforeMethod
-    public void start() {
-        Configuration.browser = "chrome";
-        Configuration.baseUrl = "https://www.disneyplus.com";
-
-        /*
-         * Instanciando a Classe Login dento da camada de teste.
-         * */
-        login = new LoginPage();
     }
 
     @Test
     public void shouldLoggerUser() {
 
         login.open();
-        login.with("johnwick@gmail.com", "johnwick@pencil");
+        login.with("maic@gmail.com", "**********");
 
         $("button[kind=primary]").shouldHave(text("REATIVAR ASSINATURA"));
     }
@@ -71,10 +53,10 @@ public class LoginDisneyPlusTests {
     }
 
     /*
-    * Gancho que após cada execução de teste ele limpa a sessão do utilizador.
-    * */
+     * Gancho que após cada execução de teste ele limpa a sessão do utilizador.
+     * */
     @AfterMethod
-    public void cleanup(){
+    public void cleanup() {
         login.clearSession();
     }
 }
