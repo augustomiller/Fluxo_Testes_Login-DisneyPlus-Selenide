@@ -8,6 +8,9 @@ import org.testng.annotations.Test;
 import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Selenide.$;
 
+/*
+* A camada de teste é somente para implementar novos cenários e tratar com dados.
+* */
 public class LoginDisneyPlusTests extends BaseTest {
 
     /*
@@ -16,8 +19,8 @@ public class LoginDisneyPlusTests extends BaseTest {
     @DataProvider(name = "data-provider")
     public Object[][] loginProvider() {
         return new Object[][]{
-                {"maic@gmail.com", "", "Houve um problema na criação da conta. Volte a digitar seu e-mail e senha e tente novamente. Se o problema continuar, entre em contato com o Suporte do Disney+ (código de erro 6)."},
-                {"maic@gmail.com", "johnwick@pencil", "Senha incorreta. Digite novamente. Se o problema continuar, selecione \"Esqueceu a senha?\" e faça a redefinição (código de erro 14)."},
+                {"mike@gmail.com", "", "Houve um problema na criação da conta. Volte a digitar seu e-mail e senha e tente novamente. Se o problema continuar, entre em contato com o Suporte do Disney+ (código de erro 6)."},
+                {"mike@gmail.com", "johnwick@pencil", "Senha incorreta. Digite novamente. Se o problema continuar, selecione \"Esqueceu a senha?\" e faça a redefinição (código de erro 14)."},
         };
     }
 
@@ -25,7 +28,7 @@ public class LoginDisneyPlusTests extends BaseTest {
     public void shouldLoggerUser() {
 
         login.open();
-        login.with("maic@gmail.com", "**********");
+        login.with("mike@gmail.com", "**********");
 
         $("button[kind=primary]").shouldHave(text("REATIVAR ASSINATURA"));
     }

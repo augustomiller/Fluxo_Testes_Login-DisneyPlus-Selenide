@@ -10,6 +10,8 @@ import static com.codeborne.selenide.Selenide.executeJavaScript;
 /*
  * Utilizando o Padrão Page Object, essa classe representará a
  * página de ‘login’ com todos os seus elementos.
+ *
+ * Toda regra do teste, implementação fica na camada Page Object.
  * */
 public class LoginPage {
 
